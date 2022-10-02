@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+
+body {
+  background-image: url(./images/Retro.PNG);
+  background-position: center;
+  background-size: cover;
+  height: 96vh;
+
+  background-repeat: no-repeat;
+  background-color: rgb(44, 41, 41);
+}
+
+hr {
+  width: 65%;
+  margin-right: 50px;
+  border-width: 0;
+  height: 2px;
+  background-color: #fff;
+}
+.logo {
+  margin-left: 190px;
+  width: 120px;
+  margin-top: 18px;
+}
+nav {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-weight: 900;
+}
+nav .nav-items {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 50px;
+  margin-right: 360px;
+  font-size: 15px;
+  font-family: "Montserrat";
+}
+
+nav .nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.col-1 > p {
+  font-size: 55px;
+  width: 570px;
+  margin-left: -120px;
+  color: #fff;
+  height: 100px;
+  margin-top: 30px;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+.col-1 > button {
+  margin-left: -120px;
+  background-color: transparent;
+  padding: 25px 60px;
+  font-size: 15px;
+  border-radius: 50px;
+  color: #fff;
+  border-color: #fff;
+  margin-top: 120px;
+  font-weight: 900;
+  border-width: 3px;
+}
+
+.ig {
+  background-color: #fff;
+  padding: 8px 27px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.puzzle {
+  background-color: rgba(255, 255, 255, 0.118);
+  margin-right: 0px;
+  padding: 2px 5px 2px 8px;
+  position: absolute;
+  right: 140px;
+}
+.puzzle > p {
+  width: 250px;
+  color: #fff;
+  margin-left: 10px;
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+.bulb {
+  width: 35px;
+  background-color: #fff;
+  padding: 8px 27px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.light1 {
+  position: absolute;
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.118);
+  width: 300px;
+  right: 470px;
+  bottom: 100px;
+
+  padding: 2px 15px 2px 15px;
+}
+
+.light1 > p {
+  width: 200px;
+  color: #fff;
+  margin-left: 30px;
+  width: 200px;
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+span {
+  text-align: end;
+}
+
+.nav-link-logo {
+  position: absolute;
+  left: 800px;
+  top: -5px;
+}
+
+.nav-link-call {
+  position: absolute;
+  top: 30px;
+  right: 250px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.circle {
+  width: 40px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 190px;
+  right: 430px;
+}
+
+.circle1 {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border: solid 1px #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -6px;
+  left: calc(100%);
+}
+
+.circle2 {
+  position: absolute;
+  border-left: 2px solid #fff;
+  height: 40px;
+  right: 220px;
+  top: 347px;
+}
+.circle3 {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border: solid 1px #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  left: -7px;
+}
+.nav-menu-icon {
+  display: none;
+}
+@media (max-width: 1230px) {
+  .nav-item {
+    display: none;
+  }
+  .nav-menu-icon {
+    display: block;
+  }
+  .nav-menu-icon > img {
+    width: 30px;
+  }
+
+  hr {
+    display: none;
+  }
+  .nav-menu-icon {
+    display: flex;
+  }
+  .col > p {
+    text-align: center;
+    font-size: 60px;
+    margin-left: 40px;
+  }
+
+  .circle2 {
+    display: none;
+  }
+  .circle {
+    display: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .puzzle {
+    margin-top: 20px;
+    margin-right: 180px;
+    width: 316px;
+  }
+  .light1 {
+    position: relative;
+    margin-top: -150px;
+    top: 3px;
+    left: 50px;
+  }
+}
+
+@media (max-width: 780px) {
+  .col > p {
+    position: relative;
+    font-size: 20px;
+    width: 80%;
+    box-sizing: border-box;
+  }
+  .puzzle {
+    margin-top: 20px;
+    margin-right: -112px;
+    width: 316px;
+  }
+  .button {
+    position: relative;
+    top: -180px;
+    right: -220px;
+    width: 60%;
+    border-color: #fff;
+  }
+  .col {
+    width: auto;
+  }
+  .light1 {
+    position: relative;
+    margin-top: -150px;
+    top: 3px;
+  }
+  .nav-menu-icon {
+    position: absolute;
+    right: 50px;
+  }
+}
