@@ -25,16 +25,16 @@ hr {
 nav {
   margin-top: 30px;
   display: flex;
-  flex-direction: row;
+
   justify-content: space-around;
   font-weight: 900;
 }
 nav .nav-items {
   display: flex;
   list-style: none;
-  flex-direction: row;
+
   gap: 50px;
-  margin-right: 360px;
+
   font-size: 15px;
   font-family: "Montserrat";
 }
@@ -125,18 +125,21 @@ span {
   text-align: end;
 }
 
-.nav-link-logo {
-  position: absolute;
-  left: 800px;
-  top: -5px;
+.call {
+  display: flex;
+  width: 40%;
+  align-self: flex-end;
+}
+.nav-link-logo > img {
+  width: 50%;
+  height: auto;
 }
 
 .nav-link-call {
-  position: absolute;
-  top: 30px;
-  right: 250px;
   text-decoration: none;
   color: #fff;
+  position: absolute;
+  right: 50px;
 }
 
 .circle {
