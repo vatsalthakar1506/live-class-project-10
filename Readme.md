@@ -14,7 +14,9 @@
 - image-Blur
 - padding
 - making circle
-  -responsive
+- -m responsive
 - it took me 12 hours to complete this
 
 [Click Me](https://live-class-10.netlify.app/)
+
+![image](images/TEn.jpg)
